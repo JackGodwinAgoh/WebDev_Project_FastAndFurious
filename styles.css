@@ -14,29 +14,35 @@ header {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
+  
 }
 
 .navbar .nav-logo .logo-text {
   color: var(--black-color);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
+  text-decoration: none;
 }
 
 .navbar .nav-menu {
   display: flex;
   gap: 10px;
+  text-decoration: none;
 }
 
 .navbar .nav-menu .nav-link {
   padding: 10px 18px;
   color: var(--white-color);
   font-size: var(--font-size-m);
-  background:linear-gradient(90deg, #f3961c,#0cdce0);
+  background:linear-gradient(90deg, #b50202,#969898);
   border-radius: var(--border-radius-m);
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
 .navbar .nav-menu .nav-link:hover {
   color: var(--primary-color);
   background: var(--black-color);
+  text-decoration: none;
 }
