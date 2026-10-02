@@ -9,6 +9,11 @@ header {
   background: var(--primary-color);
 }
 
+.navbar-section-content{
+
+  background-color:bisque;
+}
+
 .navbar {
   display: flex;
   padding: 20px;
