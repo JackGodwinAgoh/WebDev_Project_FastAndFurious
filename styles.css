@@ -6,7 +6,7 @@ body{
 
 
 header {
-  position: sticky;
+ 
   top: 0;
   left: 0;
   width: 100%;
@@ -26,7 +26,7 @@ header {
     
 
 /* 
-   NAV TITLE (CENTER HEADING)
+   NAV TITLE (For Homepage )
 */
 .nav-title {
   font-size: 32px;
@@ -73,8 +73,21 @@ header {
 
 /* Hover effect for nav links */
 .navbar .nav-menu .nav-link:hover {
-  color: white;
+  color: rgb(210, 199, 199);
   background: linear-gradient(90deg, red, #fdfcfc); /* Smooth color blend */
   text-decoration: none;
 }
 
+/* About page css*/
+
+.background{
+
+  background: color #e5d0cd;
+}
+
+.content-container1{
+
+  margin-left: 30px;
+
+
+}
