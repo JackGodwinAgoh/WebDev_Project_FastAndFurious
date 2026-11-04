@@ -133,20 +133,26 @@ header {
   border-radius: 10px;
 }
 
+body{
+  background-image: url("RaceTrack.jpg");
+  background-size: 100%;
+  
 
+}
 /* About page css*/
 
 .background{
 
   background: color #e5d0cd;
-  #home {
+  
   width: 46px;
   height: 44px;
-  background-image: url(RaceTrack.jpg);
+  background-image: url("RaceTrack.jpg");
   background-position: 0 0;
 }
 
-}
+
+
 
 .content-container1{
 
